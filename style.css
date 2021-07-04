@@ -1,0 +1,34 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
+h1{
+    font-size: 300%;
+}
+.gold-color{
+    color: gold;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+.half-width .p-width{
+    width: 85%;
+    text-align: justify;
+}
+
+.half-width img{
+    width: 90%;
+}
+
+.first-heading{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
