@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 300%;
 }
+h2{
+    font-size: 240%;
+}
 .gold-color{
     color: gold;
 }
@@ -54,6 +57,40 @@ h1{
     background-position: right;
 }
 
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .full-baby{
     width: 50%;
+}
+
+.box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;   
+    border-radius: 10px;
+    box-shadow: 5px 10px 40px rgb(85, 85, 85);
+    padding: 2%
+}
+
+#exp-web-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(#ff631b, #eeff01);
+    border-image-slice: 1;
+}
+
+#bab-web-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(#3d1bff, #35f8ff);
+    border-image-slice: 1;
+}
+.flexible-display p{
+    text-align: justify;
+}
+
+footer p{
+    text-align: center;
 }
