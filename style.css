@@ -8,7 +8,7 @@ h1{
 .gold-color{
     color: gold;
 }
-section{
+.flexible-display{
     display: flex;
     margin-bottom: 100px;
 }
@@ -52,4 +52,8 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.full-baby{
+    width: 50%;
 }
