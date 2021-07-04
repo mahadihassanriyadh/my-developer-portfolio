@@ -1,5 +1,6 @@
 body{
     font-family: 'Heebo', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 300%;
@@ -9,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -28,19 +30,26 @@ section{
 
 .link-button{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     padding: 8px 15px;
     border-radius: 10px;
-    font-weight: 600;
-    background-image: linear-gradient(orange, yellow);
+    font-weight: 500;
+    background-image: linear-gradient(yellow, orange);
 
     
 }
 
-.first-heading{
+.first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  /*  background-attachment: fixed;
+    background-size: cover; */
+    
+}
+
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
