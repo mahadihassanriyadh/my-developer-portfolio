@@ -78,8 +78,9 @@ h2{
 
 #exp-web-dev{
     border-left: 10px solid;
-    border-image: linear-gradient(#ff631b, #eeff01);
-    border-image-slice: 1;
+    border-image: linear-gradient(orange, red) 1;
+    /* border-image: linear-gradient(#ff631b, #eeff01);
+    border-image-slice: 1; */
 }
 
 #bab-web-dev{
